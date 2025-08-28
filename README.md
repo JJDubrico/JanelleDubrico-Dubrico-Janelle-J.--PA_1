@@ -48,7 +48,8 @@ Smile - :) Grin - :D Sad - :(( Mad - <:(
 
 
 # 3.) UNPACKING LIST PROBLEM: Unpack the list writeyourcodehere into three variables, being first, middle, and last, with middle being everything in between the first and last element. Then print all three variables.
-    
+
+    Using the list
     num = [1, 2, 3, 4, 5, 6] # Make the list
     
     first, *middle, last = num # Declare the variables
