@@ -16,7 +16,7 @@
     result = alphabet_soup(input_string) # Getting the result
 
     Using print() function
-    print("Sorted letters:", result) # Getting the output
+    print("Sorted letters:", result) # Print the output
 
 
 # 2.) EMOTICON PROBLEM: Create a function that changes specific words into emoticons. Given a sentence as a string, replace the words smile, grin, sad, and mad with their corresponding emoticon:
@@ -44,7 +44,7 @@ Smile - :) Grin - :D Sad - :(( Mad - <:(
     result = emotes(user_input) # Getting the result
 
     Using print() function
-    print("Emoticon version:", result)
+    print("Emoticon version:", result) # Print the output
 
 
 # 3.) UNPACKING LIST PROBLEM: Unpack the list writeyourcodehere into three variables, being first, middle, and last, with middle being everything in between the first and last element. Then print all three variables.
