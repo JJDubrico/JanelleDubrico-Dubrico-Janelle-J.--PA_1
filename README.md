@@ -58,6 +58,3 @@ Smile - :) Grin - :D Sad - :(( Mad - <:(
     print("first:", first)
     print("middle:", middle)
     print("last:", last) # Print the three variables
-
-
-# 3.) UNPACKING LIST PROBLEM: Unpack the list writeyourcodehere into three variables, being first, middle, and last, with middle being everything in between the first and last element. Then print all three variables.
