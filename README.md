@@ -17,7 +17,7 @@
 
 # 2.) EMOTICON PROBLEM: Create a function that changes specific words into emoticons. Given a sentence as a string, replace the words smile, grin, sad, and mad with their corresponding emoticon:
 
-Smile - :) Grin - :D Sad - :(( Mad - <:(
+# Smile - :) Grin - :D Sad - :(( Mad - <:(
 
 **Asks for a function that takes a sentence and replaces certain keywords with corresponding emoticons. Specifically, replace the words smile, grin, sad, and mad with :) , :D , :(( , and <:( respectively.**
 
