@@ -19,7 +19,7 @@
 
 # Smile - :) Grin - :D Sad - :(( Mad - <:(
 
-**Asks for a function that takes a sentence and replaces certain keywords with corresponding emoticons. Specifically, replace the words smile, grin, sad, and mad with :) , :D , :(( , and <:( respectively.**
+**The problem asks for a function that takes a sentence and replaces certain keywords with corresponding emoticons. Specifically, replace the words smile, grin, sad, and mad with :) , :D , :(( , and <:( respectively.**
 
     def emotes(sentence): # Defines the function
 
