@@ -1,55 +1,48 @@
-# Dubrico_ECE2112 [PA #1]
+# Dubrico_2ECE-A - PA #1 (V2)
 
 # 1.) ALPHABET SOUP PROBLEM: Create a function that takes a string and returns a string with its letters in alphabetical order.
 
-    Creating the function
-    def alphabet_soup(input): # Define the function
+**The problem asks for a function that takes a string and returns a new string containing the same letters, but arranged in alphabetical (ascending) order. Thus, it is needed to decide on how to handle case (uppercase vs lowercase) and whether to keep or remove non-letter characters. The core idea is to extract the letters, sort them, and then join them back into a single string.**
 
-    Using sort function
-    letters = sorted(input.lower()) # Convert the input string to lowercase and sort the letters
+    def alphabet_soup(input): # Defines the function
 
-    Using join() method
-    return ''.join(letters) # Join the sorted letters back into a string
+    letters = sorted(input.lower()) # Converts the input string to lowercase and sort the letters
 
-    Using input() function
-    input_string = input("Enter a string: ") # Ask for user's input
-    result = alphabet_soup(input_string) # Getting the result
+    return ''.join(letters) # Joins the sorted letters back into a string
 
-    Using print() function
-    print("Sorted letters:", result) # Print the output
+    input_string = input("Enter a string: ") # Asks for user's input
+    result = alphabet_soup(input_string) # Gets the result
+    print("Sorted letters:", result) # Displays the output
 
 
 # 2.) EMOTICON PROBLEM: Create a function that changes specific words into emoticons. Given a sentence as a string, replace the words smile, grin, sad, and mad with their corresponding emoticon:
 
 Smile - :) Grin - :D Sad - :(( Mad - <:(
 
-    Creating the function
-    def emotes(sentence): # Define the function
+**Asks for a function that takes a sentence and replaces certain keywords with corresponding emoticons. Specifically, replace the words smile, grin, sad, and mad with :) , :D , :(( , and <:( respectively.**
 
-    Using the dictionary
+    def emotes(sentence): # Defines the function
+
     emoticons = {
         "smile": ":)",
         "grin": ":D",
         "sad": ":((",
         "mad": "<:("
-    } # Define a dictionary mapping words to emoticons
+    } # Defines a dictionary mapping words to emoticons, with "smile" as ":)", "grin" as ":D", "sad" as ":((", and "mad" as "<:("
     
-    Using split() method
-    words = sentence.split() # Split the sentence into words
-    replaced_words = [emoticons.get(word, word) for word in words] # Replace words with emoticons
-    return ' '.join(replaced_words) # Join the words back into a sentence
+    words = sentence.split() # Splits the sentence into words
+    replaced_words = [emoticons.get(word, word) for word in words] # Replaces words with emoticons
+    return ' '.join(replaced_words) # Joins the words back into a sentence
 
-    Using input() function
-    user_input = input("Enter a sentence: ") # Ask for user's input
-    result = emotes(user_input) # Getting the result
-
-    Using print() function
-    print("Emoticon version:", result) # Print the output
+    user_input = input("Enter a sentence: ") # Asks for user's input
+    result = emotes(user_input) # Gets the result
+    print("Emoticon version:", result) # Displays the output
 
 
 # 3.) UNPACKING LIST PROBLEM: Unpack the list writeyourcodehere into three variables, being first, middle, and last, with middle being everything in between the first and last element. Then print all three variables.
 
-    Using the list
+**The problem asks to split a given list named writeyourcodehere into three variables: first, middle, and last. The first element goes to first, the last element goes to last, and everything in between becomes the list assigned to middle; then all three variables are printed.**
+
     num = [1, 2, 3, 4, 5, 6] # Make the list
     
     first, *middle, last = num # Declare the variables
@@ -58,3 +51,5 @@ Smile - :) Grin - :D Sad - :(( Mad - <:(
     print("first:", first)
     print("middle:", middle)
     print("last:", last) # Print the three variables
+
+--VERSION 2--
